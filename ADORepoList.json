@@ -1,0 +1,9 @@
+{
+    "RepoList" : [
+    {
+        "AzureRepoName":"Backend",
+        "ADOCloneURL":"dev.azure.com/VMLS/Anonymous%20Roulette/_git/Backend",
+         "GitHubCloneURL":"github.com/Digital-Horizon-VMLS/Backend.git"
+    }
+    ]
+}
