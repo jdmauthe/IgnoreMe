@@ -43,5 +43,5 @@ stages:
           {
           "event_type": "EVENT_NAME"
           }
-        urlSuffix: 'repos/Digital-Horizon-VMLS/Backend/dispatches'
+        urlSuffix: 'repos/jdmauthe/IgnoreMe/dispatches'
         waitForCompletion: 'false'
