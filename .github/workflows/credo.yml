@@ -46,7 +46,7 @@ jobs:
         with:
           otp-version: ${{matrix.otp}}
           elixir-version: ${{matrix.elixir}}
-          version-type: strict
+          version-type: 'strict'
         env:
           # See:
           # https://github.com/erlef/setup-beam/blob/master/src/setup-beam.js#L340
