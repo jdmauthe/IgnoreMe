@@ -48,7 +48,7 @@ jobs:
           otp-version: ${{matrix.otp}}
           elixir-version: ${{matrix.elixir}}
         env:
-          ImageOS: ubuntu20
+          ImageOS: win19
       - name: get dependencies
         run: mix deps.get
       - name: compile dependencies
