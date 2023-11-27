@@ -50,7 +50,7 @@ jobs:
         env:
           # See:
           # https://github.com/erlef/setup-beam/blob/master/src/setup-beam.js#L340
-          ImageOS: ubuntu20
+          ImageOS: ubuntu20.04
       - name: get dependencies
         run: mix deps.get
       - name: compile dependencies
