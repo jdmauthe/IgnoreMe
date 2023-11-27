@@ -46,6 +46,10 @@ jobs:
         with:
           otp-version: ${{matrix.otp}}
           elixir-version: ${{matrix.elixir}}
+        env:
+          # See:
+          # https://github.com/erlef/setup-beam/blob/master/src/setup-beam.js#L340
+          ImageOS: ubuntu-latest
       - name: get dependencies
         run: mix deps.get
       - name: compile dependencies
