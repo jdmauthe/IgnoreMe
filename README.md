@@ -1,7 +1,7 @@
 # Introduction
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.
 
-# Getting Started
+## Getting Started
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
